@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DealBot.Links.Models.Link">
+    <Position X="9.25" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAADAACAAAAEAEAAAAAAAAAAAAIAAAAACAAAIAAAAAA=</HashCode>
+      <FileName>Links\Models\Link.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.Links.LinkController">
+    <Position X="10" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAgBAAAAAAABAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Links\LinkController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.Advertisement.Models.TargetKeyword">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Advertisement\Models\TargetKeyword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.Authentication.ApplicationUser">
+    <Position X="3.75" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAIAAAAAAAAAAEAAAAAIAQAACAAAAAAAAAg=</HashCode>
+      <FileName>Authentication\ApplicationUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.Authentication.AuthenticationController">
+    <Position X="14.5" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAABABAAAAAAEAAIgAgEBAAAAAIEQAACAAAA=</HashCode>
+      <FileName>Authentication\AuthenticationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.Authentication.RefreshToken">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAHAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Authentication\RefreshToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.Authentication.UserRoles">
+    <Position X="3.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\UserRoles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.Account.AccountController">
+    <Position X="0.5" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABBAAAAAQhAEAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.Account.AdvertisementController">
+    <Position X="5.5" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAQAAAA=</HashCode>
+      <FileName>Advertisement\AdvertisementController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealBot.ApplicationDbContext">
+    <Position X="0.5" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.ControllerBase" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext&lt;TUser&gt;" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="DealBot.Links.Models.LinkTypeEnum">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Links\Models\LinkTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DealBot.Links.Models.ProviderEnum">
+    <Position X="14.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAABA=</HashCode>
+      <FileName>Links\Models\ProviderEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DealBot.Authentication.SubscriptionModelEnum">
+    <Position X="12.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Authentication\SubscriptionModelEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
